@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1153</width>
+    <height>838</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>1111</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="login_mode">
+    <widget class="QLineEdit" name="information">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>370</y>
+       <width>361</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>日志</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="login">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>440</y>
+       <width>141</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>login</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="register_2">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>440</y>
+       <width>131</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>register</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ID">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>190</y>
+       <width>361</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>请输入用户名</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Password">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>280</y>
+       <width>361</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>请输入密码</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="delete_user">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>440</y>
+       <width>131</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>delete</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="connect">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>440</y>
+       <width>141</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>connect</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="register_mode">
+    <widget class="QLineEdit" name="register_ID">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>170</y>
+       <width>311</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>注册ID</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="register_password">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>260</y>
+       <width>311</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>注册密码</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="register_3">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>430</y>
+       <width>171</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>注册</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="register_information">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>340</y>
+       <width>311</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="return_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="search_mode">
+    <widget class="QLineEdit" name="English">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>160</y>
+       <width>301</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>请输入英文</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="search">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>450</y>
+       <width>181</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>查询</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Chinese">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>250</y>
+       <width>301</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>输出结果是</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="search_information">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>350</y>
+       <width>301</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>信息</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
